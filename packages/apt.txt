@@ -1,0 +1,48 @@
+# apt packages — installed by `./install.sh packages`.
+# One package per line; blank lines and # comments ignored.
+#
+# NOTE: this is a STARTER list built from the (truncated a-m) inventory.
+# Regenerate the full curated list with:
+#   apt-mark showmanual | grep -vE '^(lib|gcc-|linux-|base-files|bash|coreutils|dash|debianutils|diffutils|findutils|grep|gzip|hostname|init|login|bsdutils)$'
+# then paste the a-z result here.
+
+# --- core cli ---
+build-essential
+cmake
+clang-format
+curl
+git
+tmux
+htop
+iotop
+jq
+httpie
+fzf
+inotify-tools
+graphviz
+gdb
+hexedit
+keychain
+
+# --- editors ---
+vim
+emacs
+
+# --- fonts ---
+fonts-liberation
+fonts-noto-color-emoji
+fonts-freefont-ttf
+
+# --- security / network tooling ---
+arp-scan
+arpwatch
+mdns-scan
+hashid
+avahi-utils
+
+# --- docker (needs the Docker apt repo configured first; see README) ---
+# docker-ce
+# docker-ce-cli
+# containerd.io
+# docker-buildx-plugin
+# docker-compose-plugin
